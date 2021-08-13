@@ -748,3 +748,7 @@ text-align:   center; border:  1px solid #ccc;}
 .bg-gradient-faded-white-vertical {
     background-image: radial-gradient(200px circle at 50% 70%, hsla(0, 0%, 100%, 0.3) 0, #fff 100%);
 }
+.visually-text{display: none;}
+.btn-sm-form{    height: 40px; 
+    line-height: 40px;
+}

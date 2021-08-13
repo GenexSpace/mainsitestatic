@@ -412,3 +412,8 @@ var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
 $(".main_nav").click(function(){
 setCookie('grd_of_child',$(this).data("bs-target"),'10');
 });
+
+function target_popup(form) {
+    window.open('', 'formpopup', 'width=400,height=400,resizeable,scrollbars');
+    form.target = 'formpopup';
+}
